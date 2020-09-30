@@ -102,14 +102,14 @@ function divisionFoo(a, b) {
 //задание 6
 var a = +prompt('введите a');
 var b = +prompt('введите b');
-operation = prompt('сложение, вычетание, умножение или деление?')
+operation = prompt('сложение, вычитание, умножение или деление?')
 
 function mathOperation(a, b, operation) {
     switch (operation) {
         case 'сложение':
             alert(addFoo(a, b));
             break
-        case 'вычетание':
+        case 'вычитание':
             alert(subFoo(a, b));
             break
         case 'умножение':
